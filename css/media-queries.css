@@ -10,6 +10,12 @@
    No media query since this is the default in Bootstrap
 */
 
+@media (max-width: 576px) {
+    body {
+        margin: 6px;
+    }
+}
+
 /* Small devices (landscape phones, 576px and up) */
 
 @media (min-width: 576px) {}
