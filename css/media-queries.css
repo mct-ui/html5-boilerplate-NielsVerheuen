@@ -28,7 +28,12 @@
 
 /* Large devices (landscape tablets, desktops, 992px and up) */
 
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+    body {
+        max-width: 42em;
+        margin: 0 auto;
+    }
+}
 
 /* Extra large devices (large desktops, 1200px and up) */
 
